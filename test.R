@@ -7,6 +7,8 @@ library(ROCR)
 library(gbm)            # generalized boosting regression modeling
 
 
+#TO TEST
+
 # read the data
 data <- fread("CAC40.csv")
 
