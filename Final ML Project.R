@@ -535,7 +535,7 @@ test_data.errors$boost5 <- 1 - cm[2]
 
 # --------------  Bagging Model Begins -----------------
 bagging_rv= randomForest(RV_target~., data = train_data, 
-                         mtry = 10,
+                         mtry = 68,
                          nodesize = 10,
                          maxnodes=25, 
                          importance = TRUE, 
